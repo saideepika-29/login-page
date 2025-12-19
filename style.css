@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bg.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Login box */
+.login-box {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 150px auto;
+    border-radius: 5px;
+}
+
+/* Heading */
+.login-box h2 {
+    text-align: center;
+}
+
+/* Inputs */
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.login-box button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
